@@ -1,0 +1,35 @@
+{
+  "name": "agent-tool-scaffold",
+  "description": "Single-agent with tool registry, prompt manager, and memory",
+  "tech": [
+    "LangChain",
+    "OpenAI",
+    "TypeScript",
+    "Redis"
+  ],
+  "categories": [
+    "ai-ml"
+  ],
+  "usecases": [
+    "ai-ml",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "complexity": "intermediate",
+  "features": [
+    "streaming",
+    "memory",
+    "tools",
+    "unit-tests",
+    "docker",
+    "ci-cd"
+  ],
+  "hasDemo": false,
+  "hasCLI": true,
+  "securityFeatures": [
+    "input-validation",
+    "rate-limiting",
+    "api-key-security"
+  ],
+  "lastUpdated": "2025-01-03"
+}

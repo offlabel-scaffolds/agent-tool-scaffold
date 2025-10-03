@@ -1,0 +1,42 @@
+{
+  "name": "agent-tool-scaffold",
+  "version": "1.0.0",
+  "description": "Production-ready AI agent with tool registry, prompt management, and memory",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "openai",
+    "tools",
+    "langchain",
+    "prompt-management"
+  ],
+  "author": "Augustus Rivers <hello@offlabel.design>",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "langchain": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.0",
+    "eslint": "^9.10.0",
+    "prettier": "^3.3.3"
+  }
+}
