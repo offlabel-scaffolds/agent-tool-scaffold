@@ -41,7 +41,7 @@ npm run build
 - TypeScript
 - Redis
 
-## ️ Architecture
+## Architecture
 
 ```
 agent-tool-scaffold/
@@ -84,7 +84,6 @@ npm run test:unit
 - Metrics collection
 - Error tracking
 - Performance monitoring
-
 
 ## Deployment
 
@@ -129,6 +128,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 ---
 
 **Maturity:** stable | **Complexity:** intermediate | **Last Updated:** 2025-01-03
-
 
 ** CLI Available:** `npx @offlabel/${scaffold.name}`
